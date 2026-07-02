@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://golf-backend-1o2b.onrender.com/api';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || '');
